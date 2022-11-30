@@ -37,7 +37,7 @@ Console.Write("max = " + max);
 
 */
 
-
+/*
 Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
@@ -48,4 +48,16 @@ if(num % 2 == 0)
 else
 {
     Console.Write("Число нечётное");
+}
+*/
+
+Console.Write("Input a number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+int current = 2;
+
+while(current <= num)
+{
+    Console.Write(current + " ");
+    current +=2;
 }
