@@ -1,4 +1,5 @@
-﻿Console.Write("Input the first number: ");
+﻿/*
+Console.Write("Input the first number: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input another number: ");
 int num2 = Convert.ToInt32(Console.ReadLine());
@@ -11,3 +12,25 @@ else
 {
     Console.Write("max = " + num2);
 }
+*/
+
+
+Console.Write("Input the first umber: ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input the second number: ");
+int num2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input the third number: ");
+int num3 = Convert.ToInt32(Console.ReadLine());
+
+int max = num1;
+
+if(num2 > num1)
+{
+    max = num2;
+    if(num3 > num2)
+    {
+        max = num3;
+    }
+}
+
+Console.Write("max = " + max);
