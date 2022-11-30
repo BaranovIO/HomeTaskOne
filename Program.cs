@@ -56,6 +56,8 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 int current = 2;
 
+Console.Write($"Чётные числа до {num}: ");
+
 while(current <= num)
 {
     Console.Write(current + " ");
