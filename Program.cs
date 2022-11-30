@@ -51,12 +51,10 @@ else
 }
 */
 
-Console.Write("Input a number: ");
+Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
 int current = 2;
-
-Console.Write($"Чётные числа до {num}: ");
 
 while(current <= num)
 {
