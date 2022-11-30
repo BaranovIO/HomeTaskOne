@@ -14,7 +14,7 @@ else
 }
 */
 
-
+/*
 Console.Write("Input the first umber: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input the second number: ");
@@ -34,3 +34,18 @@ if(num2 > num1)
 }
 
 Console.Write("max = " + max);
+
+*/
+
+
+Console.Write("Введите число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+if(num % 2 == 0)
+{
+    Console.Write("Число чётное");
+}
+else
+{
+    Console.Write("Число нечётное");
+}
